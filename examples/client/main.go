@@ -1,4 +1,4 @@
-// Copyright 2020 Coinbase, Inc.
+// Copyright 2020 Findora, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,9 +20,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/coinbase/rosetta-sdk-go/asserter"
-	"github.com/coinbase/rosetta-sdk-go/client"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/findoranetwork/rosetta-sdk-go/asserter"
+	"github.com/findoranetwork/rosetta-sdk-go/client"
+	"github.com/findoranetwork/rosetta-sdk-go/types"
 )
 
 const (
@@ -161,7 +161,7 @@ func main() {
 	// in the block only use types and statuses that were
 	// provided in the networkStatusResponse. To run more
 	// intensive validation, use the Rosetta CLI. It
-	// can be found at: https://github.com/coinbase/rosetta-cli
+	// can be found at: https://github.com/findoranetwork/rosetta-cli
 	err = asserter.Block(block.Block)
 	if err != nil {
 		log.Fatalf("Assertion Error: %s\n", err.Error())

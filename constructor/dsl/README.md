@@ -3,7 +3,7 @@ The Rosetta Constructor DSL ([domain-specific language](https://en.wikipedia.org
 makes it easy to write `Workflows` for the `constructor` package.
 
 This DSL is most commonly used for writing automated Construction API
-tests for the [`rosetta-cli`](https://github.com/coinbase/rosetta-cli#writing-checkconstruction-tests).
+tests for the [`rosetta-cli`](https://github.com/findoranetwork/rosetta-cli#writing-checkconstruction-tests).
 
 _Before reading more about the Rosetta Constructor DSL, we recommend learning
 about the frameworks used in the [`constructor`](/constructor/README.md)
@@ -147,7 +147,7 @@ would look like:
 ]
 ```
 Note, if you plan to run the automated Construction API tester in CI for `create_account` workflow, you may wish to
-provide [`prefunded accounts`](https://pkg.go.dev/github.com/coinbase/rosetta-cli/configuration#ConstructionConfiguration)
+provide [`prefunded accounts`](https://pkg.go.dev/github.com/findoranetwork/rosetta-cli/configuration#ConstructionConfiguration)
 when running the tester (otherwise you would need to manually fund generated
 accounts).
 
@@ -265,4 +265,4 @@ using a double slash (`//`).
 The Rosetta Constructor DSL should be considered `ALPHA` and may
 include breaking changes in later releases. If you have any ideas on how to improve
 the language, please
-[open an issue in `rosetta-sdk-go`](https://github.com/coinbase/rosetta-sdk-go/issues)!
+[open an issue in `rosetta-sdk-go`](https://github.com/findoranetwork/rosetta-sdk-go/issues)!

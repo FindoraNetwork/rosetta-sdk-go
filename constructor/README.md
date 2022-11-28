@@ -1,11 +1,11 @@
 # Constructor
 
-[![GoDoc](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=shield)](https://pkg.go.dev/github.com/coinbase/rosetta-sdk-go/constructor?tab=doc)
+[![GoDoc](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=shield)](https://pkg.go.dev/github.com/findoranetwork/rosetta-sdk-go/constructor?tab=doc)
 
 The `constructor` package is used for coordinating the construction
 and broadcast of transactions on any blockchain that implements the
 Rosetta API. It was designed to power automated Construction API
-testing in the [`rosetta-cli (check:construction)`](https://github.com/coinbase/rosetta-cli#checkconstruction-1)
+testing in the [`rosetta-cli (check:construction)`](https://github.com/findoranetwork/rosetta-cli#checkconstruction-1)
 but could be useful for anyone building a Rosetta API wallet.
 
 ## Framework
@@ -31,10 +31,10 @@ in other `Scenarios`. The syntax for accessing this shared state can be found
 
 `Actions` are discrete operations that can be performed in the context of a
 `Scenario`.  A full list of all `Actions` that can be performed can be found
-[here](https://pkg.go.dev/github.com/coinbase/rosetta-sdk-go/constructor/job#ActionType).
+[here](https://pkg.go.dev/github.com/findoranetwork/rosetta-sdk-go/constructor/job#ActionType).
 
 If you have suggestions for more actions, please
-[open an issue in `rosetta-sdk-go`](https://github.com/coinbase/rosetta-sdk-go/issues)!
+[open an issue in `rosetta-sdk-go`](https://github.com/findoranetwork/rosetta-sdk-go/issues)!
 
 ### Broadcast Invocation
 If you'd like to broadcast a transaction at the end of a `Scenario`,
@@ -76,7 +76,7 @@ Please note that `create_account` can contain a transaction broadcast if
 on-chain origination is required for new accounts on your blockchain.
 
 If you plan to run the `constructor` in CI, you may wish to
-provide [`prefunded accounts`](https://pkg.go.dev/github.com/coinbase/rosetta-cli/configuration#ConstructionConfiguration)
+provide [`prefunded accounts`](https://pkg.go.dev/github.com/findoranetwork/rosetta-cli/configuration#ConstructionConfiguration)
 when running the tester (otherwise you would need to manually fund generated
 accounts).
 
