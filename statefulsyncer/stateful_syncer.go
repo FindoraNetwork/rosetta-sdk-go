@@ -1,4 +1,4 @@
-// Copyright 2020 Coinbase, Inc.
+// Copyright 2020 Findora, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -24,12 +24,12 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/coinbase/rosetta-sdk-go/fetcher"
-	storageErrs "github.com/coinbase/rosetta-sdk-go/storage/errors"
-	"github.com/coinbase/rosetta-sdk-go/storage/modules"
-	"github.com/coinbase/rosetta-sdk-go/syncer"
-	"github.com/coinbase/rosetta-sdk-go/types"
-	"github.com/coinbase/rosetta-sdk-go/utils"
+	"github.com/findoranetwork/rosetta-sdk-go/fetcher"
+	storageErrs "github.com/findoranetwork/rosetta-sdk-go/storage/errors"
+	"github.com/findoranetwork/rosetta-sdk-go/storage/modules"
+	"github.com/findoranetwork/rosetta-sdk-go/syncer"
+	"github.com/findoranetwork/rosetta-sdk-go/types"
+	"github.com/findoranetwork/rosetta-sdk-go/utils"
 )
 
 var _ syncer.Handler = (*StatefulSyncer)(nil)

@@ -1,4 +1,4 @@
-// Copyright 2020 Coinbase, Inc.
+// Copyright 2020 Findora, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,8 +20,8 @@ import (
 	zil_schnorr "github.com/Zilliqa/gozilliqa-sdk/schnorr"
 	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 
-	"github.com/coinbase/rosetta-sdk-go/asserter"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/findoranetwork/rosetta-sdk-go/asserter"
+	"github.com/findoranetwork/rosetta-sdk-go/types"
 )
 
 // SignerSecp256k1 is initialized from a keypair

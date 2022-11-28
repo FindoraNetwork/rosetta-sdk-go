@@ -1,11 +1,11 @@
 # Reconciler
 
-[![GoDoc](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=shield)](https://pkg.go.dev/github.com/coinbase/rosetta-sdk-go/reconciler?tab=doc)
+[![GoDoc](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=shield)](https://pkg.go.dev/github.com/findoranetwork/rosetta-sdk-go/reconciler?tab=doc)
 
 The Reconciler package is used to ensure that balance changes derived from
 parsing Rosetta blocks are equivalent to the balance changes computed by the
 node. If you want to see an example of how to use this package, take
-a look at [rosetta-cli](https://github.com/coinbase/rosetta-cli).
+a look at [rosetta-cli](https://github.com/findoranetwork/rosetta-cli).
 
 ## Features
 * Customizable `Helper` and `Handler` to define your own logic for retrieving
@@ -18,7 +18,7 @@ debugging)
 ## Installation
 
 ```shell
-go get github.com/coinbase/rosetta-sdk-go/reconciler
+go get github.com/findoranetwork/rosetta-sdk-go/reconciler
 ```
 
 ## Reconciliation Strategies

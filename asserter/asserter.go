@@ -1,4 +1,4 @@
-// Copyright 2020 Coinbase, Inc.
+// Copyright 2020 Findora, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"path"
 
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/findoranetwork/rosetta-sdk-go/types"
 )
 
 // Asserter contains all logic to perform static
@@ -44,7 +44,7 @@ type Asserter struct {
 
 // Validations is used to define stricter validations
 // on the transaction. Fore more details please refer to
-// https://github.com/coinbase/rosetta-sdk-go/tree/master/asserter#readme
+// https://github.com/findoranetwork/rosetta-sdk-go/tree/master/asserter#readme
 type Validations struct {
 	Enabled          bool                 `json:"enabled"`
 	RelatedOpsExists bool                 `json:"related_ops_exists"`

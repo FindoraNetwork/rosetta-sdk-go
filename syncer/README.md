@@ -1,10 +1,10 @@
 # Syncer
 
-[![GoDoc](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=shield)](https://pkg.go.dev/github.com/coinbase/rosetta-sdk-go/syncer?tab=doc)
+[![GoDoc](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=shield)](https://pkg.go.dev/github.com/findoranetwork/rosetta-sdk-go/syncer?tab=doc)
 
 The Syncer package provides support for syncing blocks from any Rosetta Data API
 implementation. If you want to see an example of how to use this package, take
-a look at [rosetta-cli](https://github.com/coinbase/rosetta-cli).
+a look at [rosetta-cli](https://github.com/findoranetwork/rosetta-cli).
 
 ## Features
 * Automatic handling of block re-orgs
@@ -15,7 +15,7 @@ processed blocks to a db or print our balance changes)
 ## Installation
 
 ```shell
-go get github.com/coinbase/rosetta-sdk-go/syncer
+go get github.com/findoranetwork/rosetta-sdk-go/syncer
 ```
 
 ## Future Work
